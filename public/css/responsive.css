@@ -1,0 +1,59 @@
+/* Extra Small Devices, .visible-xs-* */
+
+@media (max-width: 767px) {
+    .height80vh,
+    .height100vh {
+        height: initial;
+        padding: 30px 15px;
+    }
+    .height100vh {
+        padding: 0 15px;
+    }
+    .flex {
+        display: block;
+    }
+    nav {
+        margin: 0 auto;
+        text-align: center;
+    }
+    nav .logo {
+        margin: 15px auto;
+    }
+    nav ul li {
+        margin: 0 10px;
+    }
+    nav ul li a {
+        padding: 8px 12px;
+        width: auto;
+    }
+    .banner-text {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .button-group-center .btn {
+        width: 130px;
+        margin: 0 5px;
+        padding: 8px 0;
+    }
+    .hidden-section {
+        padding: 30px 0;
+    }
+}
+
+
+/* Small Devices, .visible-sm-* */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .height80vh,
+    .height100vh {
+        height: initial;
+    }
+    .flex {
+        display: block;
+    }
+}
+
+
+/* Medium Devices, .visible-md-* */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
